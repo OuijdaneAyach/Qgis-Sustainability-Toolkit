@@ -14,6 +14,7 @@
   - [Prerequisites](#prerequisites)
   - [Manual Installation](#manual-installation)
   - [Enable the Plugin](#enable-the-plugin)
+ - [Screenshots](#Screenshots)
 - [Contact](#contact)
 
 ---
@@ -63,6 +64,19 @@ If the evaluation results indicate **Non durable**, the plugin generates recomme
 2. **Navigate to Plugins > Manage and Install Plugins**
 3. **Search for QGIS Sustainability Toolkit**
 4. **Click Enable to activate the plugin**
+
+## Screenshots
+
+### **Main Interface**
+![Main Interface](Demo/Interface_Principale1.png)
+
+### **Sustainability Results**
+![Sustainability Results](Demo/Résultats.png)
+
+### **Generated Solutions**
+![Generated Solutions](Demo/Solutions.png)
+
+
 
 ## Roadmap 🚀
 **🔜 Planned Features (Version 2.0)**
