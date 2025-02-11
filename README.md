@@ -71,10 +71,11 @@ If the evaluation results indicate **Non durable**, the plugin generates recomme
 ✅ Customizable Sustainability Criteria
 ✅ Integration with GIS Layers for Spatial Analysis
 ✅ Multi-Language Support (French, Spanish, Arabic, etc.)
-**Contact 📬
-👤 Developed by: Ouijdane AYACH
-📩 Email: ayachouijdane@gmail.com
-🐙 GitHub: OuijdaneAyach
+
+## Contact 📬
+**👤 Developed by:** Ouijdane AYACH
+**📩 Email:** ayachouijdane@gmail.com
+**🐙 GitHub:** OuijdaneAyach
 
   
 
