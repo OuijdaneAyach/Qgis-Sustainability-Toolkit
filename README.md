@@ -73,9 +73,9 @@ If the evaluation results indicate **Non durable**, the plugin generates recomme
 ✅ Multi-Language Support (French, Spanish, Arabic, etc.)
 
 ## Contact 📬
-**👤 Developed by:** Ouijdane AYACH
-**📩 Email:** ayachouijdane@gmail.com
-**🐙 GitHub:** OuijdaneAyach
+- **👤 Developed by:** Ouijdane AYACH
+- **📩 Email:** ayachouijdane@gmail.com
+- **🐙 GitHub:** OuijdaneAyach
 
   
 
