@@ -11,13 +11,9 @@
 - [Overview](#overview)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-  - [Interface & Workflows](#interface--workflows)
-  - [Example Indicators](#example-indicators)
-- [Screenshots](#screenshots)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
+  - [Prerequisites](#prerequisites)
+  - [Manual Installation](#manual-installation)
+  - [Enable the Plugin](#enable-the-plugin)
 - [Contact](#contact)
 
 ---
@@ -25,26 +21,62 @@
 ## Overview
 
 **QGIS Sustainability Toolkit** is a plugin designed to simplify and automate the evaluation of sustainability across three pillars:
-1. **Economy** – e.g., infrastructures, revenues, tourism.
-2. **Environment** – e.g., biodiversity, resources, landscapes, climate.
-3. **Society** – e.g., security, traditions, hospitality, unemployment rate.
 
-It calculates key metrics for multiple time periods (T1, T2, T3) and outputs whether the project or region is deemed **“Durable”** or **“Non durable.”** If results show any “Non durable” status, the plugin generates recommended solutions or best practices to address identified issues (e.g., investing locally, preserving biodiversity, improving safety, etc.).
+1. **Economy** – Infrastructure, revenues, tourism.
+2. **Environment** – Biodiversity, resources, landscapes, climate.
+3. **Society** – Security, traditions, hospitality, unemployment rate.
+
+It calculates key metrics for multiple time periods (**T1, T2, T3**) and determines whether a project or region is **Durable** or **Non durable**.  
+If the evaluation results indicate **Non durable**, the plugin generates recommended **solutions** to improve sustainability, such as **investing locally, preserving biodiversity, or enhancing safety measures**.
 
 ---
 
 ## Features
 
-- **Multi-Tab Interface:** Separate tabs for different time periods (T1, T2, T3).
-- **Sustainability Metrics:** Automated calculation of normalized values and factor impacts for various indicators (economic, environmental, and societal).
-- **Decision & Recommendations:** Displays final verdict for each period and offers tailored solutions if certain thresholds are not met.
-- **QGIS Integration:** Easily accessible from the QGIS Plugins menu; leverages Python and QGIS APIs for a smooth geospatial workflow.
-- **Extensible:** Additional indicators or custom factors can be added with minimal code modifications.
+✔ **Multi-Tab Interface** – Separate tabs for different time periods (**T1, T2, T3**).  
+✔ **Automated Calculations** – Uses normalization and weighted impact factors.  
+✔ **Decision & Recommendations** – Identifies weaknesses and suggests sustainability strategies.  
+✔ **Seamless QGIS Integration** – Fully embedded in the QGIS plugin system.  
+✔ **Extensibility** – Additional indicators and metrics can be easily added.  
+✔ **Scrollable, resizable solution dialog** – Displays tailored recommendations dynamically.  
 
 ---
 
 ## Installation
 
-1. **Download or Clone:**  
+### Prerequisites
+- **QGIS 3.x** installed on your machine.
+- **Python 3.7+** for running the plugin.
+
+### Manual Installation
+
+1. **Download or Clone the Repository**  
    ```bash
-   git clone https://github.com/YourUserName/qgis-sustainability-toolkit.git
+   git https://github.com/OuijdaneAyach/Qgis-Sustainability-Toolkit/qgis-sustainability-toolkit.git
+2. **Copy the Plugin to QGIS Plugins Folder**
+ Windows
+   ```bash
+   C:\Users\<User>\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\
+
+### Enable the Plugin
+1. **Open QGIS**
+2. **Navigate to Plugins > Manage and Install Plugins**
+3. **Search for QGIS Sustainability Toolkit**
+4. **Click Enable to activate the plugin**
+
+## Roadmap 🚀
+**🔜 Planned Features (Version 2.0)**
+✅ Automated Report Export (PDF/HTML)
+✅ Data Import Support (CSV, GeoJSON)
+✅ Customizable Sustainability Criteria
+✅ Integration with GIS Layers for Spatial Analysis
+✅ Multi-Language Support (French, Spanish, Arabic, etc.)
+**Contact 📬
+👤 Developed by: Ouijdane AYACH
+📩 Email: ayachouijdane@gmail.com
+🐙 GitHub: OuijdaneAyach
+
+  
+
+
+   
