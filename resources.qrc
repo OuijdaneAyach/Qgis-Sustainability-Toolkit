@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/plugins/projet_durabilité">
+    <file>icons/decision.png</file>
+    <file>icons/problem.png</file>
+    <file>icon.png</file>
+  </qresource>
+</RCC>
